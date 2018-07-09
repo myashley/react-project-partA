@@ -6,7 +6,7 @@
 - Rashid Elhouli
 - Ashley Tsai
 
-## Questionaire
+## Questionnaire
 
 1. Who is your client?
 2. What is your client’s need (i.e. challenge) that you will be addressing in your
