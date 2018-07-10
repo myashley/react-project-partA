@@ -13,7 +13,7 @@
     - Simon Cook from Encode Talent. He is a recruitment principle who runs his own company and focuses on candidate side more than client side.
 2. What is your client’s need (i.e. challenge) that you will be addressing in your
 project? 
-    - A major part of his work is dealing with candidates via phone calls, where he runs an extensive questionnaire to get as much information about them possible. He spends 75% of his time on the phone and documents all his data manually in his notebook. 
+    - A major part of his work is dealing with candidates via phone calls, where he runs an extensive questionnaire to get as much information about them as possible. He spends 75% of his time on the phone and documents all his data manually in his notebook. 
     - He has reached out to us to set up an online solution where he can get the candidates to fill out the questionnaire online and he can then view this once they submit it
 
 3. Describe the client’s current setup and data.
