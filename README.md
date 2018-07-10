@@ -31,6 +31,7 @@
     - Trello
     - Slack
     - MongoDB
+    
 6. Identify and describe the network setup you will use in your development.
 
 Identify and describe the infrastructure (i.e. hardware) that your App will run
