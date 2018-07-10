@@ -5,9 +5,15 @@
 - Maurice Yong
 - Rashid Elhouli
 - Ashley Tsai
+- Magical Unicorn
+- Flying Unicorn
+- Flaming Unicorn
+
+
 
 ## Questionnaire
 
+0. What is life?
 1. Who is your client?
     - Simon Cook from Encode Talent. He is a recruitment principle who runs his own company and focuses on candidate side more than client side.
 2. What is your client’s need (i.e. challenge) that you will be addressing in your
