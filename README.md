@@ -25,7 +25,7 @@ client’s needs.
 
 5. Identify and describe the software (including databases) to be used in your
 App.
-    - 
+    - This is by Mill
 6. Identify and describe the network setup you will use in your development.
 
 7. Identify and describe the infrastructure (i.e. hardware) that your App will run
