@@ -22,7 +22,7 @@
 
 4. Describe the project will you be conducting and how your App will address the client’s needs.
 
-    - We will build an online solution. The app will feature a questionnaire that his candidates can fill out. He can view all their responses once they submit. He will have a database of all the candidates who submitted the questionnaire and will able to filter through them accodrding to his needs. This will dramatically reduce the amount of time used for phone calls and help him better keep track of all his clients. 
+    - We will build an online solution. The app will feature a questionnaire that his candidates can fill out. He can view all their responses once they submit. He will have a database of all the candidates who submitted the questionnaire and will able to filter through them accodrding to his needs. This will dramatically reduce the amount of time used for phone calls and help him better keep track of all his clients.
 
 5. Identify and describe the software (including databases) to be used in your App.
 
@@ -38,21 +38,39 @@
 
 7. Identify and describe the infrastructure (i.e. hardware) that your App will run on.
 
+    - what type of cloud service (AWS, google cloud), mongo atlas, etc.
+
 8. Describe the architecture of your App.
+
+    - flow and structures of the app
 
 9. Explain the different high-level components (abstractions) in your App.
 
+    - basic summary of major components (candidate, admin, etc)
+
 10. Detail any third party services that your App will use.
+
+    - literally any platform, cloud service, host, frameworks that we are using...
 
 11. Identify the database to be used in your app and provide a justification for your choice.
 
+    - We will be using MongoDB as the main database for storing candidate information, because ......
+
 12. Discuss the database relations to be implemented.
+
+    - candidate collection
 
 13. Provide your database schema design.
 
+    - could be a simple drawing chart
+
 14. Provide User stories for your App.
 
+    - **screenshot to Trello & link**
+
 15. Provide Wireframes for your App.
+
+    - **screenshot to lucidchart**
 
 16. Describe the way Tasks are being allocated and tracked in your project.
 
@@ -62,9 +80,10 @@
 
 19. Provide an overview and description of your Testing process.
 
+    - Not going to be elaborate but mention some level of TDD and how we will test our deployments and user flow
+
 20. Discuss and analyse requirements related to information system security.
 
 21. Discuss methods you will use to protect information and data.
 
 22. Research what your legal obligations are in relation to handling user data.
-
