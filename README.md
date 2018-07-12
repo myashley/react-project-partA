@@ -73,7 +73,6 @@
     - **screenshot to lucidchart**
 
 16. Describe the way Tasks are being allocated and tracked in your project.
-    - Trello 
 
     - Trello will be utilised to track progress on tasks and sprints, with each team member being responsible for their own delegated tasks
     - Morning stand-up meetings will also be held regularly to keep team members accountable to one another and tasks can be re-assigned and re-prioritised based on how tasks are progressing
@@ -86,7 +85,6 @@
     4. The team will work in a self-organized manner, regularly meeting to discuss progress and provide support to one another, while also working self-sufficiently whether in pairs or individually. Tasks can be adjusted accordingly to improve efficiency and effectiveness
 
 18. Provide an overview and description of your Source control process.
-    - Git
 
     - We will be using git as our primary version control system to track file changes during the development process. GitHub is the online service by which we will host our code and manage a central repository for the project, to which the team can make pull requests to update and make changes to the code.
 
