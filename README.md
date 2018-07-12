@@ -10,12 +10,12 @@
 ## Questionnaire
 
 1. Who is your client?
-    - Simon Cook from Encode Talent. He is a recruitment principle who runs his own company and focuses on candidate side more than client side.
+    - Simon Cook from Encode Talent. He is a recruitment principal who runs his own company and focuses on candidate side more than client side.
 
 2. What is your client’s need (i.e. challenge) that you will be addressing in your project?
 
-    - A major part of his work is dealing with candidates via phone calls, where he runs an extensive questionnaire to get as much information about them possible. He spends 75% of his time on the phone and documents all his data manually in his notebook.
-    - He has reached out to us to set up an online solution where he can get the candidates to fill out the questionnaire online and he can then view this once they submit it
+    - A major part of his work is dealing with candidates via phone calls, where he runs an extensive questionnaire to get as much information about them as possible. He spends 75% of his time on the phone and documents all his data manually in his notebook.
+    - He has reached out to us to set up an online solution where he can get the candidates to fill out the questionnaire online and he can then view this once they submit it.
 
 3. Describe the client’s current setup and data.
     - He is currently documenting all his data in his notebook and then manually entering the data into an excel spreadsheet.
@@ -26,19 +26,18 @@
 
 5. Identify and describe the software (including databases) to be used in your App.
 
-    - VS Code
-    - Figma
-    - Trello
-    - Slack
-    - MongoDB
+    - We will use Node.js as a runtime environment to build this app, and use React as our JavaScript library/framework to develop our frontend. We will also use Express framework for our backend, and connecting to MongoDB database by using Mongoose as our driver.
 
 6. Identify and describe the network setup you will use in your development.
 
-    - literally whether it's across the internet/connections to other services, etc
+    - We will be connecting our servers to Now during development, and connecting to GitHub for group contribution. 
+    - The app will have its frontend server using Netlify for production and connecting to its backend server at Now.
+    - The backend server connects to Mongo database by using MongoDB Atlas as its platform.
 
 7. Identify and describe the infrastructure (i.e. hardware) that your App will run on.
 
-    - what type of cloud service (AWS, google cloud), mongo atlas, etc.
+    - The app will be accessed by using web browser, which may be ran on different devices such as mobile phones, tablets or computers. 
+    - The app will have its frontend and backend sitting on different servers, using services including Now, Netlify and cloud services such as AWS or Google cloud via Mongo Atlas.
 
 8. Describe the architecture of your App.
 
@@ -46,11 +45,12 @@
 
 9. Explain the different high-level components (abstractions) in your App.
 
-    - basic summary of major components (candidate, admin, etc)
+    - The app consists of two major components: candidates and admininstrator. The candidate information will be collected, validated and stored into the database, and the administrator will be able to access the data for further management and manipulation.
 
 10. Detail any third party services that your App will use.
 
-    - literally any platform, cloud service, host, frameworks that we are using...
+    - The app will use Netlify and Now for its frontend and backend hosting, and use MongoDB Altas as the platform to manage MongoDB, which will be either hosted at AWS or Google Cloud. 
+    - The app will use React and Express as its JavaScript library and framework, using Node.js as its runtime environment. 
 
 11. Identify the database to be used in your app and provide a justification for your choice.
 
@@ -73,6 +73,7 @@
     - **screenshot to lucidchart**
 
 16. Describe the way Tasks are being allocated and tracked in your project.
+    - Trello 
 
     - Trello will be utilised to track progress on tasks and sprints, with each team member being responsible for their own delegated tasks
     - Morning stand-up meetings will also be held regularly to keep team members accountable to one another and tasks can be re-assigned and re-prioritised based on how tasks are progressing
@@ -85,6 +86,7 @@
     4. The team will work in a self-organized manner, regularly meeting to discuss progress and provide support to one another, while also working self-sufficiently whether in pairs or individually. Tasks can be adjusted accordingly to improve efficiency and effectiveness
 
 18. Provide an overview and description of your Source control process.
+    - Git
 
     - We will be using git as our primary version control system to track file changes during the development process. GitHub is the online service by which we will host our code and manage a central repository for the project, to which the team can make pull requests to update and make changes to the code.
 
