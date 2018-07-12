@@ -10,7 +10,7 @@
 ## Questionnaire
 
 1. Who is your client?
-    - Simon Cook from Encode Talent. He is a recruitment principle who runs his own company and focuses on candidate side more than client side.
+    - Simon Cook from Encode Talent. He is a recruitment principal who runs his own company and focuses on candidate side more than client side.
 
 2. What is your client’s need (i.e. challenge) that you will be addressing in your project?
 
