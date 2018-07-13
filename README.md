@@ -42,9 +42,11 @@
 
 8. Describe the architecture of your App.
 
-    - flow and structures of the app
+    Below is the workflow digrams for our app. These highlight the different paths the candidates and admins take to use the app. 
 
-9. Explain the different high-level components (abstractions) in your App.
+     ![workflow diagram](/assets/img/workflow.png) 
+
+9.  Explain the different high-level components (abstractions) in your App.
 
     - The app consists of two major components: candidates and admininstrator. The candidate information will be collected, validated and stored into the database, and the administrator will be able to access the data for further management and manipulation.
 
@@ -55,7 +57,11 @@
 
 11. Identify the database to be used in your app and provide a justification for your choice.
 
-    - We will be using MongoDB as the main database for storing candidate information, because ......
+    - We will be using MongoDB as the main database for storing candidate information, because Structure of a single object is clear.
+    - MongoDB is a document database in which one collection holds different documents. MongoDB doesn't have complex joins.
+    - MongoDB has Deep query-ability and It supports dynamic queries on documents using a document-based query language.
+    - The advantage of using MongoDB is we don't need to map application objects to database objects.
+    - MongoDB store Data in the form of JSON style documents.
 
 12. Discuss the database relations to be implemented.
 
@@ -94,6 +100,12 @@
     - Due to the time constraints given for the project, we are unable to incorporate a fully test driven development scheme. However, tests will be written for functional client-end components to ensure that features built for client interaction work. We will be utilising Jest as our testing framework for its simplicity and speedy performance.
 
 20. Discuss and analyse requirements related to information system security.
+
+    - It is very important to protect the candidates personal information from potential threats.
+    - In order to prevent unauthorized access, use, disclossue, disruption, modification, inspection, recording or destruction of information we will be implementing a secure Authorization process.
+    - The implementation will include User authentication and User authorization.
+    - The communication protocol will be HTTPS(HTTP Secure) for secure communication over a computer network. 
+    - In authentication, when the user successully lo
 
 21. Discuss methods you will use to protect information and data.
 
