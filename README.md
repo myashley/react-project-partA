@@ -41,7 +41,7 @@
 
 8. Describe the architecture of your App.
 
-    - flow and structures of the app
+    - ![workflow diagram](/assets/img/workflow.png) 
 
 9. Explain the different high-level components (abstractions) in your App.
 
