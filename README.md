@@ -41,9 +41,11 @@
 
 8. Describe the architecture of your App.
 
-    - ![workflow diagram](/assets/img/workflow.png) 
+    Below is the workflow digrams for our app. These highlight the different paths the candidates and admins take to use the app. 
 
-9. Explain the different high-level components (abstractions) in your App.
+     ![workflow diagram](/assets/img/workflow.png) 
+
+9.  Explain the different high-level components (abstractions) in your App.
 
     - The app consists of two major components: candidates and admininstrator. The candidate information will be collected, validated and stored into the database, and the administrator will be able to access the data for further management and manipulation.
 
