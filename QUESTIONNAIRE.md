@@ -21,7 +21,6 @@ ARE YOU IN A CONTRACT OR PERMANENT ROLE? (tick box)
 WHAT ARE YOUR CURRENT DAY TO DAY RESPONSIBILITIES? (free text box)
 
 EXPERIENCE : TECHNOLOGIES (details to follow)
-(with sliders for years experience
 
 ## Aspirations
   
