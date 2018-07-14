@@ -119,13 +119,13 @@
 
     - Due to the time constraints given for the project, we are unable to incorporate a fully test driven development scheme. However, tests will be written for functional client-end components to ensure that features built for client interaction work. We will be utilising Jest as our testing framework for its simplicity and speedy performance.
 
-20. TODO:Discuss and analyse requirements related to information system security.
+20. Discuss and analyse requirements related to information system security.
 
     - It is very important to protect the candidates personal information from potential threats.
-    - In order to prevent unauthorized access, use, disclossue, disruption, modification, inspection, recording or destruction of information we will be implementing a secure Authorization process.
+    - In order to prevent unauthorized access, use, disclosure, disruption, modification, inspection, recording or destruction of information we will be implementing a secure Authorization process.
     - The implementation will include User authentication and User authorization.
     - The communication protocol will be HTTPS(HTTP Secure) for secure communication over a computer network.
-    - In authentication, when the user successully lo
+    - For our specific requirements, only our client, as the main recruitment principal of his company, will have access to candidate data, and hence will be for now, the sole user of the application authorised to access, view and modify candidate data through our authentication system.
 
 21. Discuss methods you will use to protect information and data.
 
@@ -136,4 +136,4 @@
 22. Research what your legal obligations are in relation to handling user data.
 
     - In accordance with Australia's *Privacy Act* 1988 we will be protecting our user's private information by storing them securely in a database and only allowing authorised users (our client - Encode Talent) to access user information for their recruitment activities
-    - The candidates who will be submitting their personal information to the app will be notified of Encode Talent's privacy policy prior to the solicited collection of their information, to which they will consent to
+    - The candidates who will be submitting their personal information to the app will be notified of Encode Talent's privacy policy and asked for consent prior to the solicited collection of their information
