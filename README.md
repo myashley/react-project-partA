@@ -10,7 +10,7 @@
 ## Questionnaire
 
 1. Who is your client?
-    - Simon Cook from Encode Talent. He is a recruitment principal who runs his own company and focuses on candidate side more than client side.
+    - Simon Cook from Encode Talent. He is a recruitment principal who runs his own recruitment company in the tech industry with emphasis on understanding his candidates' (people looking for work) qualities, career goals and aspirations before matching them with clients (employers seeking employees)
 
 2. What is your client’s need (i.e. challenge) that you will be addressing in your project?
 
@@ -18,7 +18,10 @@
     - He has reached out to us to set up an online solution where he can get the candidates to fill out the questionnaire online and he can then view this once they submit it.
 
 3. Describe the client’s current setup and data.
-    - He is currently documenting all his data in his notebook and then manually entering the data into an excel spreadsheet.
+    - Candidates initiate contact with Simon via email or LinkedIn with an expression of interest
+    - Simon then contacts candidates and carries out an initial interview (over phone or in person) with set questions to find out more about who they are, and their needs
+    - He currently documents all his data in a notebook and then manually enters the data into an Excel spreadsheet
+    - Relying on a combination of Excel, Hubspot, written notes and his own memory, he matches candidates with clients, conducting further meetings to gather more information from candidates if necessary
 
 4. Describe the project will you be conducting and how your App will address the client’s needs.
 
@@ -30,30 +33,31 @@
 
 6. Identify and describe the network setup you will use in your development.
 
-    - The application will be deployed for use via the internet
+    - The application will be deployed for use via the internet, with all users (candidates and admin) connecting to the application online through a networked device of their choosing (phone, tablet, PC, etc)
     - We will be connecting our servers to Now during development, and connecting to GitHub for group contribution.
     - The app will have its frontend server using Netlify for production and connecting to its backend server at Now.
     - The backend server connects to Mongo database by using MongoDB Atlas as its platform.
+    - We plan on being able to utilise Encode Talent's existing domain and pointing to our application from a sub-domain
 
 7. Identify and describe the infrastructure (i.e. hardware) that your App will run on.
 
-    - The app will be accessed by using web browser, which may be ran on different devices such as mobile phones, tablets or computers. 
-    - The app will have its frontend and backend sitting on different servers, using services including Now, Netlify and cloud services such as AWS or Google cloud via Mongo Atlas.
+    - The app will be accessed via web browser, which may be run from different devices such as mobile phones, tablets or computers.
+    - The app will have its front-end and back-end sitting on different servers, using services including Now, Netlify and cloud services such as AWS or Google Cloud via Mongo Atlas.
 
 8. Describe the architecture of your App.
 
-    Below is the workflow digrams for our app. These highlight the different paths the candidates and admins take to use the app. 
+    Below is the workflow digrams for our app. These highlight the different paths the candidates and admins take to use the app.
 
-     ![workflow diagram](/assets/img/workflow.png) 
+     ![workflow diagram](/assets/img/workflow.png)
 
-9.  Explain the different high-level components (abstractions) in your App.
+9. Explain the different high-level components (abstractions) in your App.
 
     - The app consists of two major components: candidates and admininstrator. The candidate information will be collected, validated and stored into the database, and the administrator will be able to access the data for further management and manipulation.
 
 10. Detail any third party services that your App will use.
 
-    - The app will use Netlify and Now for its frontend and backend hosting, and use MongoDB Altas as the platform to manage MongoDB, which will be either hosted at AWS or Google Cloud. 
-    - The app will use React and Express as its JavaScript library and framework, using Node.js as its runtime environment. 
+    - The app will use Netlify and Now for its frontend and backend hosting, and use MongoDB Altas as the platform to manage MongoDB, which will be either hosted at AWS or Google Cloud.
+    - The app will use React and Express as its JavaScript library and framework, using Node.js as its runtime environment.
 
 11. Identify the database to be used in your app and provide a justification for your choice.
 
@@ -65,19 +69,35 @@
 
 12. Discuss the database relations to be implemented.
 
-    - candidate collection
+    - The database is simple, with a candidate collection used to store individual candidate documents collected from candidate form submissions. There will also be a collection for user authentication (there will primarily be just one user -- our client) for access to the candidate data from client-side
+    - These collections have no reference to one another, but user(s) may only access candidate information when they are authenticated via the application
+    - A nice-to-have feature that we decided would be hard to implement within the timeframe of the project was for our client to be able to implement their clients (companies looking for candidates) as a collection with reference to the candidate data so that candidates could be short-listed to specific companies, however due to the time constraints, we decided that this would be a feature for further implementation in the future, hence there are no relations/references in our database
 
 13. Provide your database schema design.
 
-    - could be a simple drawing chart
+    ![Screenshot of Database Schema](assets/img/db_schema.png)
 
 14. Provide User stories for your App.
 
-    - **screenshot to Trello & link**
+    [Link to Trello](https://trello.com/b/v3SlV6aZ)
+
+    ![Screenshot of User Stories](assets/img/user_stories.png)
 
 15. Provide Wireframes for your App.
 
-    - **screenshot to lucidchart**
+    [Link to Figma](https://www.figma.com/file/FyYzMMwDQTa4StkPC1kPjeiP/App-Design)
+
+    *Candidate Form (Mobile)*
+    ![Screenshot of candidate form (mobile)](assets/img/mobile_form.png)
+
+    *Candidate Form (Desktop)*
+    ![Screenshot of candidate form (desktop)](assets/img/desktop_form.png)
+
+    *Admin Reports Dashboard (Mobile)*
+    ![Screenshot of admin dashboard (mobile)](assets/img/mobile_admin.png)
+
+    *Admin Reports Dashboard (Desktop)*
+    ![Screenshot of admin dashboard (desktop)](assets/img/desktop_admin.png)
 
 16. Describe the way Tasks are being allocated and tracked in your project.
 
@@ -99,12 +119,12 @@
 
     - Due to the time constraints given for the project, we are unable to incorporate a fully test driven development scheme. However, tests will be written for functional client-end components to ensure that features built for client interaction work. We will be utilising Jest as our testing framework for its simplicity and speedy performance.
 
-20. Discuss and analyse requirements related to information system security.
+20. TODO:Discuss and analyse requirements related to information system security.
 
     - It is very important to protect the candidates personal information from potential threats.
     - In order to prevent unauthorized access, use, disclossue, disruption, modification, inspection, recording or destruction of information we will be implementing a secure Authorization process.
     - The implementation will include User authentication and User authorization.
-    - The communication protocol will be HTTPS(HTTP Secure) for secure communication over a computer network. 
+    - The communication protocol will be HTTPS(HTTP Secure) for secure communication over a computer network.
     - In authentication, when the user successully lo
 
 21. Discuss methods you will use to protect information and data.
