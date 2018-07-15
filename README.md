@@ -30,7 +30,7 @@
 
 6. Identify and describe the network setup you will use in your development.
 
-    - We will be connecting our servers to Now during development, and connecting to GitHub for group contribution. 
+    - We will be using Internet to connect our servers to Now during development, and connecting to GitHub for group contribution. 
     - The app will have its frontend server using Netlify for production and connecting to its backend server at Now.
     - The backend server connects to Mongo database by using MongoDB Atlas as its platform.
 
